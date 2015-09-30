@@ -1,0 +1,25 @@
+{
+  "name": "nipc",
+  "preferGlobal": true,
+  "version": "1.0.0",
+  "description": "Run a node process with ipc enabled",
+  "main": "bin/nipc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soyuka/nipc.git"
+  },
+  "keywords": [
+    "node",
+    "ipc",
+    "bin"
+  ],
+  "author": "soyuka",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/soyuka/nipc/issues"
+  },
+  "homepage": "https://github.com/soyuka/nipc#readme"
+}

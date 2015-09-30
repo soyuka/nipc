@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+var file = process.argv.slice(2).filter(function(e) {
+  return !/^\-/.test(e)
+})[0]
+
+require('child_process').fork(file, process.argv, {
+  cwd: process.cwd(),
+  env: process.env,
+  execPath: process.argv[0]
+})
